@@ -1,7 +1,7 @@
  * {
      margin: 0;
      padding: 0;
-     font-family: 'EB Garamond', Tahoma, Geneva, Verdana, sans-serif;
+     font-family: 'Roboto Mono', Verdana, sans-serif;
  }
 
  #loader {
@@ -15,8 +15,45 @@
      z-index: 9999
  }
 
+ .nav-portfolio {
+     display: flex;
+     align-items: center;
+     height: 100%;
+ }
+
+ .nav-portfolio ul {
+     display: flex;
+     gap: 32px;
+     list-style: none;
+     align-items: center;
+     margin: 0;
+     padding: 0;
+ }
+
+ .nav-portfolio li a {
+     display: flex;
+     align-items: center;
+     font-size: 1.05rem;
+     color: #83333B;
+     text-decoration: none;
+     transition: color 0.2s;
+     padding: 8px 16px;
+     border-radius: 6px;
+     font-weight: 600;
+ }
+
+ .nav-portfolio li a i {
+     margin-right: 8px;
+     font-size: 1.15rem;
+ }
+
+ .nav-portfolio li a:hover,
+ .nav-portfolio li a:focus {
+     background-color: #FF6372;
+     color: #fff;
+ }
+
  footer {
-     position: fixed;
      left: 0;
      bottom: 0;
      width: 100%;
@@ -32,8 +69,10 @@
  .header-portfolio {
      display: flex;
      align-items: center;
-     gap: 550px;
+     gap: 350px;
      background-color: #FFEFF1;
+     position: fixed;
+     width: 100%;
  }
 
  .header-portfolio img {
@@ -103,4 +142,27 @@
      transition: transform 0.2s ease, box-shadow 0.2s ease;
      justify-content: center;
      width: 100%;
+ }
+
+ .first {
+     text-align: center;
+     font-size: 46px;
+     padding-top: 60px;
+
+     .Webflow {
+         padding-left: 35%;
+     }
+ }
+
+ .second {
+     display: flex;
+
+     img {
+         width: 30%;
+         height: 30%;
+     }
+
+     h2 {
+         text-align: center;
+     }
  }
