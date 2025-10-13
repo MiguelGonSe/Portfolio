@@ -150,19 +150,41 @@
      padding-top: 60px;
 
      .Webflow {
-         padding-left: 35%;
+         gap: 50px;
+         display: flex;
+         align-items: center;
+         justify-content: center;
+     }
+ }
+
+ .first:hover {
+     background-image: url("/Portfolio/Images/sky.gif");
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+
+     h1 {
+         color: #ff48f9;
+         -webkit-text-stroke: 1.5px #FFFFFF;
+         transition: color 0.3s ease, -webkit-text-stroke-color 0.3s ease;
+     }
+
+     h1:hover {
+         color: #FFD700;
+         -webkit-text-stroke-color: #f4ffd7;
      }
  }
 
  .second {
      display: flex;
-
-     img {
-         width: 30%;
-         height: 30%;
-     }
+     gap: 80px;
 
      h2 {
          text-align: center;
+         padding-right: 120px;
+     }
+
+     img {
+         margin-left: 230px;
      }
  }
