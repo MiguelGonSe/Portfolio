@@ -1,121 +1,125 @@
 <!DOCTYPE html>
-<html lang=es>
+<html lang="es">
 
 <head>
     <title>Portfolio</title>
-    <meta charset=utf-8>
-    <link rel=stylesheet type=text/css href=Styles/style.css>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="Styles/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
-    <meta name=viewport content=width=device-width, initial-scale=1.0>
-    <script src=Scripts/script.js defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="Scripts/script.js" defer></script>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
     <link rel="icon" type="image/png" href="Images/SinFondo.png">
 </head>
 
 <body>
-    <header class="header_portfolio">
+    <main>
 
-        <img title="logo" src="Images/Logo.png" alt="Logo">
-        <button class="menu_toggle" aria-label="Abrir Menú">☰</button>
+        <header class="header_portfolio">
 
-        <nav class="nav_portfolio">
-            <ul>
-                <li><a href="#inicio"><i class="fa fa-home"></i> Inicio</a></li>
-                <li><a href="#conoceme"><i class="fa fa-user"></i> Conóceme</a></li>
-                <li><a href="#proyectos"><i class="fa fa-code"></i> Mis proyectos</a></li>
-                <li><a href="#"><i class="fa fa-envelope"></i> Contacto</a></li>
-            </ul>
-        </nav>
+            <img title="logo" src="Images/Logo.png" alt="Logo">
+            <button class="menu_toggle" aria-label="Abrir Menú">☰</button>
 
-        <a title="figma"
-            href="https://www.figma.com/design/KY1xJMbCUBND0xljfyaMe6/Untitled?node-id=0-1&t=7MwHd8gyTNsjZgyb-1"
-            target="_blank"><img src="Images/Figma-logo.png" alt="Imagen de Figma" width="40" height="30"></a>
+            <nav class="nav_portfolio">
+                <ul>
+                    <li><a href="#inicio"><i class="fa fa-home"></i> Inicio</a></li>
+                    <li><a href="#conoceme"><i class="fa fa-user"></i> Conóceme</a></li>
+                    <li><a href="#proyectos"><i class="fa fa-code"></i> Mis proyectos</a></li>
+                    <li><a href="#"><i class="fa fa-envelope"></i> Contacto</a></li>
+                </ul>
+            </nav>
 
-    </header>
-    <div class="intro">
+            <a title="figma"
+                href="https://www.figma.com/design/KY1xJMbCUBND0xljfyaMe6/Untitled?node-id=0-1&t=7MwHd8gyTNsjZgyb-1"
+                target="_blank"><img src="Images/Figma-logo.png" alt="Imagen de Figma" width="40" height="30"></a>
 
-        <div class="first">
-            <h1 id="inicio">
-                Creative
-            </h1>
+        </header>
+        <div class="intro">
 
-            <h1 class="Webflow">
-                <img src="Images/risa.gif" alt="Reir" width="480" height="330">
-                Web
-            </h1>
+            <div class="first">
+                <h1 class="inicio">
+                    Creative
+                </h1>
 
-            <h1>
-                Developer
-            </h1>
-        </div>
+                <h2 class="Webflow">
+                    <img src="Images/risa.gif" alt="Reir" width="480" height="330">
+                    Web
+                </h2>
 
-        <div class="second">
-            <img src="Images/YoConLogo.png" alt="Yo con Logo" width="350" height="300">
-            <div>
-                &nbsp;
-                <hr>
-                &nbsp;&nbsp;
-                <section id="conoceme">
-                    <h2>
-                        Soy estudiante de Desarrollo de Aplicaciones Web <br> <br>
-                        Aquí muestro proyectos realizados durante el curso, enfocados en la creación de sitios web
-                        funcionales, accesibles y visualmente atractivos. <br> <br>
-                        Mi objetivo es seguir aprendiendo y desarrollando soluciones digitales que aporten valor y
-                        calidad.
-                        <br><br>
-                    </h2>
-                </section>
-                <hr>
+                <h2 class="third">
+                    Developer
+                </h2>
+            </div>
+
+            <div class="second">
+                <img src="Images/YoConLogo.png" alt="Yo con Logo" width="350" height="300">
+                <div>
+                    &nbsp;
+                    <hr>
+                    &nbsp;&nbsp;
+                    <section id="conoceme">
+                        <h2>
+                            Soy estudiante de Desarrollo de Aplicaciones Web <br> <br>
+                            Aquí muestro proyectos realizados durante el curso, enfocados en la creación de sitios web
+                            funcionales, accesibles y visualmente atractivos. <br> <br>
+                            Mi objetivo es seguir aprendiendo y desarrollando soluciones digitales que aporten valor y
+                            calidad.
+                            <br><br>
+                        </h2>
+                    </section>
+                    <hr>
+                </div>
             </div>
         </div>
-    </div>
 
-    <section id="proyectos">
+        <section id="proyectos">
 
-        <h2>Proyectos Destacados</h2>
-        <div class="proyectos_grid">
+            <h2>Proyectos Destacados</h2>
+            <div class="proyectos_grid">
 
-            <div class="proyecto_card">
-                <h3>Tabla Din&aacute;mica</h3>
-                <p>Genera y manipula tablas interactivas en tiempo real.</p>
-                <a href="https://miguelgonse.github.io/Tabla-dinamica/" target="_blank"> <i class="fa fa-table fa-lg"
-                        aria-hidden="true"></i></a>
-                <a href="https://github.com/MiguelGonSe/Tabla-dinamica" target="_blank"> <i class="fa fa-github fa-lg"
-                        aria-hidden="true"></i></a>
+                <div class="proyecto_card">
+                    <h3>Tabla Din&aacute;mica</h3>
+                    <p>Genera y manipula tablas interactivas en tiempo real.</p>
+                    <a href="https://miguelgonse.github.io/Tabla-dinamica/" target="_blank"> <i
+                            class="fa fa-table fa-lg" aria-hidden="true"></i></a>
+                    <a href="https://github.com/MiguelGonSe/Tabla-dinamica" target="_blank"> <i
+                            class="fa fa-github fa-lg" aria-hidden="true"></i></a>
+                </div>
+
+                <div class="proyecto_card">
+                    <h3>Cuadrado M&oacute;vil</h3>
+                    <p>Animaci&oacute;n y control din&aacute;mico de un cuadrado en pantalla.</p>
+                    <a href="https://miguelgonse.github.io/Cuadrado-Movil/" target="_blank"> <i
+                            class="fa fa-table fa-lg" aria-hidden="true"></i></a>
+                    <a href="https://github.com/MiguelGonSe/Cuadrado-Movil" target="_blank"> <i
+                            class="fa fa-github fa-lg" aria-hidden="true"></i></a>
+                </div>
+
+                <div class="proyecto_card">
+                    <h3>Cuenta Atr&aacute;s</h3>
+                    <p>Fecha manipulable para ver la cuenta atrás.</p>
+                    <a href="https://miguelgonse.github.io/Cuenta-Atras/" target="_blank"> <i class="fa fa-table fa-lg"
+                            aria-hidden="true"></i></a>
+                    <a href="https://github.com/MiguelGonSe/Cuenta-Atras" target="_blank"> <i class="fa fa-github fa-lg"
+                            aria-hidden="true"></i></a>
+                </div>
+
+                <div class="proyecto_card">
+                    <h3>Aventura en JS</h3>
+                    <p>Primer juego iteractivo con uso de JS</p>
+                    <img src="Images/working.gif" alt="Working" width="50" height="50">
+                </div>
+
+                <div class="proyecto_card">
+                    <h3>Panel de usuario</h3>
+                    <p>Registro/Acceso mediante panel de usuario</p>
+                    <img src="Images/working.gif" alt="Working" width="50" height="50">
+                </div>
+
             </div>
+        </section>
 
-            <div class="proyecto_card">
-                <h3>Cuadrado M&oacute;vil</h3>
-                <p>Animaci&oacute;n y control din&aacute;mico de un cuadrado en pantalla.</p>
-                <a href="https://miguelgonse.github.io/Cuadrado-Movil/" target="_blank"> <i class="fa fa-table fa-lg"
-                        aria-hidden="true"></i></a>
-                <a href="https://github.com/MiguelGonSe/Cuadrado-Movil" target="_blank"> <i class="fa fa-github fa-lg"
-                        aria-hidden="true"></i></a>
-            </div>
-
-            <div class="proyecto_card">
-                <h3>Cuenta Atr&aacute;s</h3>
-                <p>Fecha manipulable para ver la cuenta atrás.</p>
-                <a href="https://miguelgonse.github.io/Cuenta-Atras/" target="_blank"> <i class="fa fa-table fa-lg"
-                        aria-hidden="true"></i></a>
-                <a href="https://github.com/MiguelGonSe/Cuenta-Atras" target="_blank"> <i class="fa fa-github fa-lg"
-                        aria-hidden="true"></i></a>
-            </div>
-
-            <div class="proyecto_card">
-                <h3>Aventura en JS</h3>
-                <p>Primer juego iteractivo con uso de JS</p>
-                <img src="Images/working.gif" alt="Working" width="50" height="50">
-            </div>
-
-            <div class="proyecto_card">
-                <h3>Panel de usuario</h3>
-                <p>Registro/Acceso mediante panel de usuario</p>
-                <img src="Images/working.gif" alt="Working" width="50" height="50">
-            </div>
-
-        </div>
-    </section>
+    </main>
 
     <footer>
         <p>© 2025 Miguel Gonz&aacute;lez Seguro. Derechos reservados</p>
